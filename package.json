@@ -2,7 +2,7 @@
   "name": "react-studio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./react-studio",
+  "homepage": "./",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
