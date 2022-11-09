@@ -14,7 +14,7 @@ export default function BakeryItem(props) {
         <div>
             <h3>{item.name}</h3>
             <p>{item.description}</p>
-            <button onClick={handleClick}>click me</button>
+            <button onClick={handleClick}>{`$${item.price}`}</button>
         </div>
     );
 }
