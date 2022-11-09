@@ -37,8 +37,8 @@ function App() {
 
       <div>
         <h2>Cart</h2>
-        {cart.map(e => <p>{e.name}</p>)}
-          <p>{totalPrice}</p>
+          <h3>{totalPrice}</h3>
+          {cart.map(e => <p>{e.name}</p>)}
       </div>
     </div>
   );
